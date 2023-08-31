@@ -1,0 +1,51 @@
+site_name: Willkommen zum Lernfeld ...
+dev_addr: '0.0.0.0:80'
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.details
+  - attr_list
+  - tables
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  
+theme:
+  name: material
+  language: de
+  font: false
+  favicon: \figures\favicon.png
+  logo: \figures\favicon.png
+  icon:
+    admonition:
+      info: material/alarm 
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: light-blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+site_author: "bszetdd it-systems"
+
+extra_css:
+    - css/extra.css
+
+nav:
+  - Home : index.md
+  - Impressum: legal/imprint.md
