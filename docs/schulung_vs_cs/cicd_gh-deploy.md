@@ -5,5 +5,31 @@ Eine in einem GitHub-Repo gespeicherte MKDocs Webseite wird mithilfe des 'mkdocs
 ## Ziel (SOLL)
 Nach jeder Änderung im GitHub-Repository soll die Webseite automatisch aktualisiert werden.
 
-## Einführung in GitHub-Actions
-Die GitHub-Actions sind eine Methode von GitHub um 
+## GitHub Actions
+GitHub Actions können alle möglichen Aufgaben eines Anwendungsentwicklers erfüllen. Nachdem der Quellcode vom Entwickelr geschrieben und auf das Git-Repo 'gepusht' wurde, kann der Code mittels GitHub-Actions auf Fehler überprüft, Tests durchgeführt oder auch in eine Anwendung kompiliert werden. Dafür beschreibt man in einer Action, welche Befehle wann ausgeführt werden sollen.
+
+## Umsetzung des Ziels
+1. Lese/Schreib Zugriff für GitHub-Actions Bot erlauben
+    1. GitHub Repo > Einstellungen > Actions > Allgemein > Workflow Berechtigungen aus Lese/Schreib Zugriff erlauben
+2. Anlegen der Datei .github/workflows/gh-deploy.yml
+3. konfigurieren der GitHub-Action:
+```
+name: gh-deploy 
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: pip install mkdocs-material 
+      - run: mkdocs gh-deploy --force
+```
+4. Änderungen hochladen
+
+Die oben erstellte gh-deploy.yml installiert, nach jedem Push auf dem Branch 'main', Python und mkdocs in einer Ubuntu Umgebung. Anschließend führt sie den gh-deploy Befehl aus.
