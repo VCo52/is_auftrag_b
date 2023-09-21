@@ -4,6 +4,7 @@ dev_addr: '0.0.0.0:80'
 markdown_extensions:
   - admonition
   - footnotes
+  - md_in_html
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
