@@ -19,4 +19,4 @@ Gegebenenfalls muss zuerst der Proxy neu eingestellt werden: git config --global
 10. "Repository klonen" auswählen und Link von GitHub-Repo einfügen
 11. in geöffnetem Code eine Änderung zum Test vornehmen
 12. alles hinzufügen (add), Nachricht eingeben (commit) und commit ausführen
-13. push ausführen um Änderung auf Github Repository zu übertragen (erneute Auhtentifizierung)
+13. push ausführen um Änderung auf Github Repository zu übertragen (erneute Authentifizierung)
