@@ -8,21 +8,32 @@ Ziel ist es jetzt dafür zu sorgen, dass das Projekt sowohl in Github implementi
 
 ## Vorgehensweise
 Gegebenenfalls muss zuerst der Proxy neu eingestellt werden: git config --global http.proxy http://kjs-04.lan.dd-schulen.de:3128
-![Proxy einstellen](Proxy einstellen.png)
+![Proxy einstellen](bilder/Proxy%20einstellen.png)
 
 1. neues Repository auf GitHub erstellen
+</br>
 2. lokalen Speicherort wählen und Repository klonen
-4. C#-Projekt in lokalem Repository speichern/einfügen
-6. "git add ." alle Änderungen hinzufügen und danach "git commit" alles bestätigen
-7. Commit-Nachricht hinzufügen
-8. Repository auf GitHub pushen
-9. Visual Studio öffnen (die Normale, nicht die lokale Version)
-10. "Repository klonen" auswählen und Link von GitHub-Repo einfügen
-![Repository in von Github in VS klonen](Repository klonen.png)
-11. in geöffnetem Code eine Änderung zum Test vornehmen
-12. alles hinzufügen (add), Nachricht eingeben (commit) und commit ausführen
-![alle Änderungen hinzufügen](alle Änderungen adden.png)
-![commit message und commit ausführen](commit message + commit.png)
-13. push ausführen um Änderung auf Github Repository zu übertragen (erneute Authentifizierung)
-![pushen](push (github).png)
-![authentifizieren](mit Accountdaten verifizieren.png)
+</br>
+3. C#-Projekt in lokalem Repository speichern/einfügen
+</br>
+4. "git add ." alle Änderungen hinzufügen und danach "git commit" alles bestätigen
+</br>
+5. Commit-Nachricht hinzufügen
+</br>
+6. Repository auf GitHub pushen
+</br>
+7. Visual Studio öffnen (die Normale, nicht die lokale Version)
+</br>
+8. "Repository klonen" auswählen und Link von GitHub-Repo einfügen
+![Repository in von Github in VS klonen](bilder/Repository%20klonen.png)
+</br>
+9. in geöffnetem Code eine Änderung zum Test vornehmen
+</br>
+10. alles hinzufügen (add), Nachricht eingeben (commit) und commit ausführen
+![alle Änderungen hinzufügen](bilder/alle%20%C3%84nderungen%20adden.png)
+![commit message und commit ausführen](bilder/commit%20message%20%2B%20commit.png)
+</br>
+11. push ausführen um Änderung auf Github Repository zu übertragen (erneute Authentifizierung)
+</br>
+![pushen](bilder/push%20(github).png)
+![authentifizieren](bilder/mit%20Accountdaten%20verifizieren.png)
