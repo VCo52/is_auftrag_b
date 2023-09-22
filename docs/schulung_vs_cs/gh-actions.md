@@ -43,10 +43,20 @@ jobs:
       - run: echo "Hallo IGD20!"
 ```
 
+| Feld    | Beschreibung                                             |
+|---------|----------------------------------------------------------|
+| name    | Name der Action                                          |
+| on      | Bei welchem Ereignis wird die Action ausgeführt          |
+| jobs    | logische Unterteilung der Action in Abschnitte, "Jobs"   |
+| runs-on | Auf welchem Zielsystem soll die Action ausgeführt werden |
+
 ## Umsetzung
 
 1. im Repository den Ordner .github/workflows anlegen und Datei 'hallo_welt.yml' anlegen
-![hallo_welt.yml Datei im .github/workflows Ordner](bilder/workflows-ordner.png)
+![hallo_welt.yml Datei im .github/workflows Ordner](bilder/workflows-ordne.png)
 2. oben stehende Konfiguration in Datei einfügen
+![hallo_welt.yml Datei](bilder/hallo_welt-datei.png)
 3. Änderungen commiten und pushen
-
+![hallo_welt.yml Datei in GitHub](bilder/hallo-welt-datei-auf-github.png)
+4. GitHub Action analysieren (GitHub Repo > Actions)
+![hallo_welt Action auf GitHub](bilder/github-action-in-github.png)
