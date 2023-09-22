@@ -11,18 +11,29 @@ Gegebenenfalls muss zuerst der Proxy neu eingestellt werden: git config --global
 ![Proxy einstellen](bilder/Proxy%20einstellen.png)
 
 1. neues Repository auf GitHub erstellen
+
 2. lokalen Speicherort wählen und Repository klonen
-4. C#-Projekt in lokalem Repository speichern/einfügen
-6. "git add ." alle Änderungen hinzufügen und danach "git commit" alles bestätigen
-7. Commit-Nachricht hinzufügen
-8. Repository auf GitHub pushen
-9. Visual Studio öffnen (die Normale, nicht die lokale Version)
-10. "Repository klonen" auswählen und Link von GitHub-Repo einfügen
+
+3. C#-Projekt in lokalem Repository speichern/einfügen
+
+4. "git add ." alle Änderungen hinzufügen und danach "git commit" alles bestätigen
+
+5. Commit-Nachricht hinzufügen
+
+6. Repository auf GitHub pushen
+
+7. Visual Studio öffnen (die Normale, nicht die lokale Version)
+
+8. "Repository klonen" auswählen und Link von GitHub-Repo einfügen
 ![Repository in von Github in VS klonen](bilder/Repository%20klonen.png)
-11. in geöffnetem Code eine Änderung zum Test vornehmen
-12. alles hinzufügen (add), Nachricht eingeben (commit) und commit ausführen
+
+9. in geöffnetem Code eine Änderung zum Test vornehmen
+
+10. alles hinzufügen (add), Nachricht eingeben (commit) und commit ausführen
 ![alle Änderungen hinzufügen](bilder/alle%20%C3%84nderungen%20adden.png)
 ![commit message und commit ausführen](bilder/commit%20message%20%2B%20commit.png)
-13. push ausführen um Änderung auf Github Repository zu übertragen (erneute Authentifizierung)
+
+11. push ausführen um Änderung auf Github Repository zu übertragen (erneute Authentifizierung)
+
 ![pushen](bilder/push%20(github).png)
 ![authentifizieren](bilder/mit%20Accountdaten%20verifizieren.png)
