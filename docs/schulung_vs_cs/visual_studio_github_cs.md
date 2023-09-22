@@ -8,7 +8,7 @@ Ziel ist es jetzt dafür zu sorgen, dass das Projekt sowohl in Github implementi
 
 ## Vorgehensweise
 Gegebenenfalls muss zuerst der Proxy neu eingestellt werden: git config --global http.proxy http://kjs-04.lan.dd-schulen.de:3128
-![Proxy einstellen](Proxy einstellen.png)
+![Proxy einstellen](bilder/Proxy%20einstellen.png)
 
 1. neues Repository auf GitHub erstellen
 2. lokalen Speicherort wählen und Repository klonen
@@ -18,11 +18,11 @@ Gegebenenfalls muss zuerst der Proxy neu eingestellt werden: git config --global
 8. Repository auf GitHub pushen
 9. Visual Studio öffnen (die Normale, nicht die lokale Version)
 10. "Repository klonen" auswählen und Link von GitHub-Repo einfügen
-![Repository in von Github in VS klonen](Repository klonen.png)
+![Repository in von Github in VS klonen](bilder/Repository%20klonen.png)
 11. in geöffnetem Code eine Änderung zum Test vornehmen
 12. alles hinzufügen (add), Nachricht eingeben (commit) und commit ausführen
-![alle Änderungen hinzufügen](alle Änderungen adden.png)
-![commit message und commit ausführen](commit message + commit.png)
+![alle Änderungen hinzufügen](bilder/alle%20%C3%84nderungen%20adden.png)
+![commit message und commit ausführen](bilder/commit%20message%20%2B%20commit.png)
 13. push ausführen um Änderung auf Github Repository zu übertragen (erneute Authentifizierung)
-![pushen](push (github).png)
-![authentifizieren](mit Accountdaten verifizieren.png)
+![pushen](bilder/push%20(github).png)
+![authentifizieren](bilder/mit%20Accountdaten%20verifizieren.png)
