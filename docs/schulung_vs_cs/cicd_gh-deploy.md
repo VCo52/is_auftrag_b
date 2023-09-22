@@ -32,3 +32,10 @@ jobs:
 
 Die oben erstellte gh-deploy.yml installiert, nach jedem Push auf dem Branch 'main', Python und mkdocs in einer Ubuntu Umgebung. Anschließend führt sie den gh-deploy Befehl aus.
 
+| Linie | Inhalt                                                      | Beschreibung                                                                                                                              |
+|-------|-------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| 2-5   | on:  push:     branches:       - main                       | Auführung bei Push auf 'main'-Branch                                                                                                      |
+| 10-11 | - uses: actions/checkout@v2 - uses: actions/setup-python@v2 | Führt von GitHub vordefinierte Befehle aus: - checkout: macht das Repository für die Action verwendbar - setup-python: installiere Python |
+| 12    | with:   python-version: 3.x                                 | benutze/installiere Python Version 3 im 'setup-python' Befehl                                                                             |
+| 13    | - run: pip install mkdocs-material                          | installiere das pip(Python) modul 'mkdocs-material'                                                                                       |
+| 14    | - run: mkdocs gh-deploy --force                             | führe den 'mkdocs gh-deploy'-Befehl aus                                                                                                   |
