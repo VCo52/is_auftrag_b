@@ -5,25 +5,27 @@ GitHub Actions können alle möglichen Aufgaben eines Anwendungsentwicklers erf�
 Die oben genannten Vorgänge werden als Continous Integration(CI) und Continous Deployment (CD) bezeichnet.
 ### Continous Integration
 Integration von Quellcode in ein Projekt.
-- Überprüfen auf Fehler im Code
-- Syntax Überprüfung
-- Style-/Formüberprüfung
-- Tests des Codes
-- Überprüfen der Umsetzbarkeit auf Produktiven Systemen
+* Überprüfen auf Fehler im Code
+* Syntax Überprüfung
+* Style-/Formüberprüfung
+* Tests des Codes
+* Überprüfen der Umsetzbarkeit auf Produktiven Systemen
 
 ### Continous Deployment
 Umsetzen des Codes auf produktive Systeme oder erstellen von Anwendbarer Software.
-- kompilieren von Code
-- platzieren von Dateien auf Servern
-- Verteilen von Updates
-- Erstellen von Containern
+
+* kompilieren von Code
+* platzieren von Dateien auf Servern
+* Verteilen von Updates
+* Erstellen von Containern
 
 ## Funktionsweise
-GitHub Actions werden in YAML-Konfigurationsdateien beschrieben. In diesen können u.a. folgende Eigenschaften beschrieben werden
-- name der Action
-- wann wird die Action ausgeführt
-- wo wird die Action ausgeführt (Betriebssystem, custom Runner, etc.)
-- was führt die Action aus
+GitHub Actions werden in YAML-Konfigurationsdateien beschrieben. In diesen können u.a. folgende Eigenschaften beschrieben werden.
+
+* name der Action
+* wann wird die Action ausgeführt
+* wo wird die Action ausgeführt (Betriebssystem, custom Runner, etc.)
+* was führt die Action aus
 
 Die Dateien werden im .github/workflows Ordner innerhalb des Git-Repos abgelegt.
 
@@ -53,10 +55,12 @@ jobs:
 ## Umsetzung
 
 1. im Repository den Ordner .github/workflows anlegen und Datei 'hallo_welt.yml' anlegen
-![hallo_welt.yml Datei im .github/workflows Ordner](bilder/workflows-ordne.png)
+![hallo_welt.yml Datei im .github/workflows Ordner](bilder/workflows-ordner.png)
 2. oben stehende Konfiguration in Datei einfügen
 ![hallo_welt.yml Datei](bilder/hallo_welt-datei.png)
 3. Änderungen commiten und pushen
 ![hallo_welt.yml Datei in GitHub](bilder/hallo-welt-datei-auf-github.png)
 4. GitHub Action analysieren (GitHub Repo > Actions)
 ![hallo_welt Action auf GitHub](bilder/github-action-in-github.png)
+![hallo_welt Action auf GitHub](bilder/analyze-ex-gh-action.png)
+

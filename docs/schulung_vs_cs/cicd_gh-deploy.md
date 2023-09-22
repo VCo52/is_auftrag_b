@@ -8,6 +8,7 @@ Nach jeder Änderung im GitHub-Repository soll die Webseite automatisch aktualis
 ## Umsetzung des Ziels mittels GitHub Actions
 1. Lese/Schreib Zugriff für GitHub-Actions Bot erlauben
     1. GitHub Repo > Einstellungen > Actions > Allgemein > Workflow Berechtigungen aus Lese/Schreib Zugriff erlauben
+![Lese/Schreibzugriff erlauben](bilder/github-actions-settings-page-rw-permissions.png)
 2. Anlegen der Datei .github/workflows/gh-deploy.yml
 3. konfigurieren der GitHub-Action:
 ```
@@ -27,6 +28,7 @@ jobs:
       - run: pip install mkdocs-material 
       - run: mkdocs gh-deploy --force
 ```
-4. Änderungen hochladen
+4. Änderungen committen und pushen
 
 Die oben erstellte gh-deploy.yml installiert, nach jedem Push auf dem Branch 'main', Python und mkdocs in einer Ubuntu Umgebung. Anschließend führt sie den gh-deploy Befehl aus.
+
