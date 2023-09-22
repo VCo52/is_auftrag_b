@@ -1,0 +1,11 @@
+name: Hallo Welt
+on: [push]
+jobs:
+  Hallo-Welt:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hallo Welt!"
+  Hallo-IGD20:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hallo IGD20!"
