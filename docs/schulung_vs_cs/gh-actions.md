@@ -46,7 +46,7 @@ jobs:
 ## Umsetzung
 
 1. im Repository den Ordner .github/workflows anlegen und Datei 'hallo_welt.yml' anlegen
-![hallo_welt.yml Datei im .github/workflows Ordner](schulung_vs_cs/bilder/workflows-ordner.png)
+![hallo_welt.yml Datei im .github/workflows Ordner](bilder/workflows-ordner.png)
 2. oben stehende Konfiguration in Datei einfügen
 3. Änderungen commiten und pushen
 
