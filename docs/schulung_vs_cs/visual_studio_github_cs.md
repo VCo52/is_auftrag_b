@@ -1,7 +1,8 @@
 # Github-Repository in Visual Studio klonen
 
 ## Ausgangspunkt (IST)
-Im Laufwerk "Projekte" befindet sich der Projektordner "Handelskalkulation zum dazugehörigen Code als ZIP-Datei.
+Im Repository befindet sich eine ZIP-Datei mit dem zugehörigen Projekt "handelskalkulation", geführt unter dem Ordner Projekte --> Schulung Github
+![Handelskalkulation](Projekte/Schulung%20Github.zip)
 
 ## Ziel (Soll)
 Ziel ist es jetzt dafür zu sorgen, dass das Projekt sowohl in Github implementiert wird, als auch das Änderungen automatisch übernommen werden.
