@@ -12,30 +12,30 @@ Nach jeder Änderung im GitHub-Repository soll die Webseite automatisch aktualis
 2. Anlegen der Datei .github/workflows/gh-deploy.yml
 3. konfigurieren der GitHub-Action:
 ```
-name: gh-deploy 
-on:
-  push:
-    branches:
-      - main
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
-        with:
-          python-version: 3.x
-      - run: pip install mkdocs-material 
-      - run: mkdocs gh-deploy --force
+00 name: gh-deploy 
+01 on:
+02   push:
+03     branches:
+04       - main
+05 jobs:
+06   deploy:
+07     runs-on: ubuntu-latest
+08     steps:
+09       - uses: actions/checkout@v2
+10       - uses: actions/setup-python@v2
+11         with:
+12           python-version: 3.x
+13       - run: pip install mkdocs-material 
+14       - run: mkdocs gh-deploy --force
 ```
 4. Änderungen committen und pushen
 
 Die oben erstellte gh-deploy.yml installiert, nach jedem Push auf dem Branch 'main', Python und mkdocs in einer Ubuntu Umgebung. Anschließend führt sie den gh-deploy Befehl aus.
 
-| Linie | Inhalt                                                      | Beschreibung                                                                                                                              |
-|-------|-------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| 2-5   | on:  push:     branches:       - main                       | Auführung bei Push auf 'main'-Branch                                                                                                      |
-| 10-11 | - uses: actions/checkout@v2 - uses: actions/setup-python@v2 | Führt von GitHub vordefinierte Befehle aus: - checkout: macht das Repository für die Action verwendbar - setup-python: installiere Python |
-| 12    | with:   python-version: 3.x                                 | benutze/installiere Python Version 3 im 'setup-python' Befehl                                                                             |
-| 13    | - run: pip install mkdocs-material                          | installiere das pip(Python) modul 'mkdocs-material'                                                                                       |
-| 14    | - run: mkdocs gh-deploy --force                             | führe den 'mkdocs gh-deploy'-Befehl aus                                                                                                   |
+| Linie | Beschreibung                                                                                                                              |
+|-------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| 2-5   | Auführung bei Push auf 'main'-Branch                                                                                                      |
+| 10-11 | Führt von GitHub vordefinierte Befehle aus: - checkout: macht das Repository für die Action verwendbar - setup-python: installiere Python |
+| 12    | benutze/installiere Python Version 3 im 'setup-python' Befehl                                                                             |
+| 13    | installiere das pip(Python) modul 'mkdocs-material'                                                                                       |
+| 14    | führe den 'mkdocs gh-deploy'-Befehl aus                                                                                                   |
