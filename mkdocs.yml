@@ -1,4 +1,4 @@
-site_name: Willkommen zum Lernfeld ...
+site_name: Schulung 28.09.2023
 dev_addr: '0.0.0.0:80'
 
 markdown_extensions:
@@ -47,7 +47,6 @@ extra_css:
     - css/extra.css
 
 nav:
-  - Home : index.md
   - GitHub Actions: schulung_vs_cs/gh-actions.md
   - CICD gh-deploy: schulung_vs_cs/cicd_gh-deploy.md
   - Visual Studio und GitHub: schulung_vs_cs/visual_studio_github_cs.md

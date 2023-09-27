@@ -6,7 +6,7 @@ Die oben genannten Vorgänge werden als Continous Integration(CI) und Continous 
 
 | ![CICD Workflow](bilder/cicd.png) |
 |:--:|
-| Quelle: https://www.padok.fr/hs-fs/hubfs/Images/Blog/continuous-integration-diagram.png?width=600&name=continuous-integration-diagram.png Zugriff am 27.09.2023 07:15 |
+| Quelle: http://testbone.com/blog/continuous-integration/cover.jpg Zugriff am 27.09.2023 07:15 |
 
 ### Continous Integration
 Integration von Quellcode in ein Projekt.
