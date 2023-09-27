@@ -3,6 +3,11 @@ GitHub Actions können alle möglichen Aufgaben eines Anwendungsentwicklers erf�
 
 ## CI/CD
 Die oben genannten Vorgänge werden als Continous Integration(CI) und Continous Deployment (CD) bezeichnet.
+
+| ![CICD Workflow](bilder/cicd.png) |
+|:--:|
+| Quelle: http://testbone.com/blog/continuous-integration/cover.jpg Zugriff am 27.09.2023 07:15 |
+
 ### Continous Integration
 Integration von Quellcode in ein Projekt.
 * Überprüfen auf Fehler im Code
