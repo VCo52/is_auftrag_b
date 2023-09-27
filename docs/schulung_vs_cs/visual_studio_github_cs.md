@@ -1,8 +1,8 @@
 # Github-Repository in Visual Studio klonen
 
 ## Ausgangspunkt (IST)
-Im Repository befindet sich eine ZIP-Datei mit dem zugehörigen Projekt "handelskalkulation", geführt unter dem Ordner Projekte &rarr; Schulung Github
-![Handelskalkulation](Projekte/Schulung%20Github.zip)
+Im Repository befindet sich eine ZIP-Datei mit dem zugehörigen Projekt "handelskalkulation", geführt unter dem Ordner "Projekte" &rarr; "Schulung Github"
+[Handelskalkulation](Projekte/Schulung%20Github.zip)
 
 ## Ziel (Soll)
 Ziel ist es jetzt dafür zu sorgen, dass das Projekt sowohl in Github implementiert wird, als auch das Änderungen automatisch übernommen werden.
@@ -38,3 +38,6 @@ Gegebenenfalls muss zuerst der Proxy neu eingestellt werden: git config --global
 </br>
 ![pushen](bilder/push%20(github).png)
 ![authentifizieren](bilder/mit%20Accountdaten%20verifizieren.png)
+
+
+[def]: Projekte/Schulung%20Github.zip
