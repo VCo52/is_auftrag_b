@@ -34,8 +34,8 @@ Die oben erstellte gh-deploy.yml installiert, nach jedem Push auf dem Branch 'ma
 
 | Linie | Beschreibung                                                                                                                              |
 |-------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| 2-5   | Auführung bei Push auf 'main'-Branch                                                                                                      |
-| 10-11 | Führt von GitHub vordefinierte Befehle aus: - checkout: macht das Repository für die Action verwendbar - setup-python: installiere Python |
+| 1-4   | Auführung bei Push auf 'main'-Branch                                                                                                      |
+| 9-10  | Führt von GitHub vordefinierte Befehle aus: - checkout: macht das Repository für die Action verwendbar - setup-python: installiere Python |
 | 12    | benutze/installiere Python Version 3 im 'setup-python' Befehl                                                                             |
 | 13    | installiere das pip(Python) modul 'mkdocs-material'                                                                                       |
 | 14    | führe den 'mkdocs gh-deploy'-Befehl aus                                                                                                   |
