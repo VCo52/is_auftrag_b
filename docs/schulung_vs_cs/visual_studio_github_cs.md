@@ -4,7 +4,8 @@
 Im Repository befindet sich eine ZIP-Datei mit dem zugehörigen Projekt "handelskalkulation", geführt unter dem Ordner "Projekte" &rarr; "Schulung Github"
 </br>
 
-Download: [Handelskalkulation](Projekte/Schulung%20Github.zip)
+Download: 
+[Handelskalkulation](Projekte/Schulung%20Github.zip)
 
 ## Ziel (Soll)
 Ziel ist es jetzt dafür zu sorgen, dass das Projekt sowohl in Github implementiert wird, als auch das Änderungen automatisch übernommen werden.
